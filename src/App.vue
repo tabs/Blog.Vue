@@ -17,7 +17,7 @@
                 <span>登录</span>
               </a>
               <a
-                href="https://ids.neters.club/account/register"
+                href="http://localhost:5004/account/register"
                 target="_blank"
                 class="header-container-userinfo-login header-container-user-btn header-container-hv header-container-user-size"
                 role="button"
@@ -28,7 +28,7 @@
             </template>
             <template v-else>
               <a
-                href="https://ids.neters.club/"
+                href="http://localhost:5004/"
                 class="header-container-banner-item-btn"
               >{{ sysUserName }}</a>
               <a
